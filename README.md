@@ -25,3 +25,19 @@ full screen mode, vsync, software rendering, and level. It needs to be reminded 
 must be renamed to "engine.bin" and put into two folders: Software, and Hardware.
 Note: Software must include an "opengl32.dll" in order to work with software rendering.
 it could be downloaded from here https://fdossena.com/?p=mesa/index.frag
+
+===============================================================================
+
+# System requirements
+
+Minimum (640x480, CPU rendering):
+- CPU : Core 2 DUO or faster
+- Ram : 1 GB
+- GPU : *Not needed for CPU rendering
+- OS : Windows 7 32-bit (Windows XP is NOT supported)
+
+Recommended (HD 1280x720, Hardware Accelerated):
+- CPU : Core i3 2nd Gen or higher
+- Ram : 2 GB
+- GPU : Any Graphics Card that supports OpenGL 3.3 or newer
+- OS : Windows 7 64-bit (Windows XP 32-bit is NOT supported)
