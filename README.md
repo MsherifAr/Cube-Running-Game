@@ -1,10 +1,8 @@
 # Cube-Running-Game
 A game made using OpenGL 3.3 about a cube trying to avoid obstacles ahead.
-===============================================================================
 This project has two main parts:
 - The game engine.
 - The Game launcher.
-===============================================================================
 
 # The Game Engine
 
@@ -15,8 +13,6 @@ The project is set to release for x86 32-bit, and compilation is simply done by 
 An executable will be generated in the release folder called "GameEngine.exe", and it can be used as it is provided
 that all the assets and the settings.conf file are available.
 
-===============================================================================
-
 # The Game Launcher
 
 It's a Windows Forms app project, using .NET 2.0 as a runtime. it simply modifies the settings.conf file
@@ -25,8 +21,6 @@ full screen mode, vsync, software rendering, and level. It needs to be reminded 
 must be renamed to "engine.bin" and put into two folders: Software, and Hardware.
 Note: Software must include an "opengl32.dll" in order to work with software rendering.
 it could be downloaded from here https://fdossena.com/?p=mesa/index.frag
-
-===============================================================================
 
 # System requirements
 
@@ -40,4 +34,4 @@ Recommended (HD 1280x720, Hardware Accelerated):
 - CPU : Core i3 2nd Gen or higher
 - Ram : 2 GB
 - GPU : Any Graphics Card that supports OpenGL 3.3 or newer
-- OS : Windows 7 64-bit (Windows XP 32-bit is NOT supported)
+- OS : Windows 7 64-bit (32-bit doesn't support Hardware acceleration)
