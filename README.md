@@ -17,7 +17,7 @@ that all the assets and the settings.conf file are available.
 
 It's a Windows Forms app project, using .NET 2.0 as a runtime. it simply modifies the settings.conf file
 and launches the game. the game reads the settings.conf contents to determine the screen resolution,
-full screen mode, vsync, software rendering, and level. It needs to be reminded that the "GameEngine.exe"
+full screen mode, vsync, software rendering, and level. Be reminded that the "GameEngine.exe"
 must be renamed to "engine.bin" and put into two folders: Software, and Hardware.
 Note: Software must include an "opengl32.dll" in order to work with software rendering.
 it could be downloaded from here https://fdossena.com/?p=mesa/index.frag
@@ -31,7 +31,7 @@ Minimum (640x480, CPU rendering):
 - OS : Windows 7 32-bit (Windows XP is NOT supported)
 
 Recommended (HD 1280x720, Hardware Accelerated):
-- CPU : Core i3 2nd Gen or higher
+- CPU : Core i3 2nd Gen or faster
 - Ram : 2 GB
 - GPU : Any Graphics Card that supports OpenGL 3.3 or newer
 - OS : Windows 7 64-bit (32-bit doesn't support Hardware acceleration)
